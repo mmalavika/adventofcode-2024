@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.StringJoiner;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Day17 {
 
-    public static String[] registerArr = Input.REGISTERS.split("\\r\\n");
-    public static String[] programArr = Input.PROGRAM.split(",");
+    public static String[] registerArr = Input17.REGISTERS.split("\\r\\n");
+    public static String[] programArr = Input17.PROGRAM.split(",");
 
     public static String partOne() {
     long registerA = Long.parseLong(registerArr[0]);
@@ -156,8 +156,8 @@ public class Main {
         return output.toString();
     }
     
-    public static void main(String[] args) {
-        System.out.println("Part one = " + partOne());
-        System.out.println("Part two = " + partTwo());
-    }
+    // public static void main(String[] args) {
+    //     System.out.println("Part one = " + partOne());
+    //     System.out.println("Part two = " + partTwo());
+    // }
 }
