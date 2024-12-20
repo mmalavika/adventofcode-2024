@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.StringJoiner;
 import java.util.stream.Collectors;
@@ -156,8 +155,8 @@ public class Day17 {
         return output.toString();
     }
     
-    // public static void main(String[] args) {
-    //     System.out.println("Part one = " + partOne());
-    //     System.out.println("Part two = " + partTwo());
-    // }
+    public static void main(String[] args) {
+        System.out.println("Part one = " + partOne());
+        System.out.println("Part two = " + partTwo());
+    }
 }
